@@ -5,7 +5,7 @@ import { useState } from "react";
 // TODO: 계산결과를 redux를 이용한 전역상태로 관리해 보세요.
 function App() {
   const result = useSelector(state => state.calculator)
-  const inputValue [ value, setValue ] = useState(0);
+  const [ value, setValue ] = useState(0);
   const dispatch = useDispatch()
 
   return (
